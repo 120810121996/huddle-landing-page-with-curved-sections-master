@@ -1,0 +1,188 @@
+/* Stylisation du conteneur */
+.en_tete {
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    justify-content: space-between; /* Place les éléments aux extrémités gauche et droite */
+    align-items: flex-start; /* Aligne les éléments en haut du conteneur */
+    padding: 50px; /*ajoute de l'espace à l'intérieur */
+    background-color: #f7f9fc; /* couleur de fond */
+    gap: 100px;
+}
+
+/* Stylisation de l'image */
+.en_tete img {
+    max-width: 140px; /* Limite la taille de l'image si nécessaire */
+    height: auto; /* Maintient les proportions de l'image */
+}
+
+/* Stylisation du lien "Try it Free" */
+.en_tete try {
+    font-size: 16px; /* Taille du texte */
+    color: #fff; /* Couleur du texte (blanc) */
+   /* background-color: #ff005c; /* Couleur de fond rose */
+    /*text-decoration: none; /* Supprime le soulignement */
+    padding: 50px; /* Ajoute du padding pour ressembler à un bouton */
+    border-radius: 10px; /* Arrondit les coins */
+    border: 2px solid; 
+    border-color: #ff005c;    
+}
+.hugtext{
+    text-align: center;
+}
+.rose {
+    text-align: center; /* Centre le texte */
+    background-color:hsl(321, 100%, 78%); /* Ajoute une couleur d'arrière-plan */
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte */
+    border-radius: 40px; /* Arrondit les coins */
+    display: inline-block; /* Limite la coloration uniquement à l'espace occupé par le texte */
+   
+}
+.landing{
+    display: block;
+    text-align: center;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 105vh; /* Optionnel : remplit la hauteur de l'écran */
+    background-color: #f0f0f0; /* Optionnel : couleur de fond pour visualisation */
+}
+
+.landing img {
+    max-width: 90%; /* Redimensionne l'image pour qu'elle ne dépasse pas la largeur du conteneur */
+    max-height: 225vh; /* Ajuste la hauteur maximale pour éviter que l'image ne dépasse l'écran */
+    width: auto; /* Maintient les proportions de l'image */
+    height: auto; /* Maintient les proportions de l'image */
+    border-radius: 2px; /* Optionnel : arrondit les coins de l'image */
+}
+
+/*.blocs {
+    flex-direction: column; 
+}*/
+
+.con , .echan{
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre les blocs horizontalement */
+    gap: 300px; /* Réduit l'espace entre les blocs */
+    padding: 50px; /* Ajoute un espace intérieur autour du conteneur (facultatif) */
+    margin: 0 auto; /* Centre le conteneur lui-même si nécessaire */
+}
+
+
+.block {
+    width: 45%; /* Ajuste la largeur des blocs */
+    background-color: lightblue;
+    padding: 20px; /* Ajoute un espace intérieur dans chaque bloc */
+    text-align: center; /* Centre le texte à l'intérieur des blocs */
+    display: flex; /* Active Flexbox à l'intérieur du bloc  */
+    align-items: center; /* Centre verticalement le contenu interne */
+    justify-content: center; /* Centre horizontalement le contenu interne */
+    border-radius: 5px; /* Ajoute des coins arrondis */
+}
+
+
+
+.bloc2 img {
+    display: block; /* Place l'image sur une nouvelle ligne */
+    margin: 0 auto; /* Centre l'image */
+}
+
+.bloc2 strong {
+    margin-top: 70px;
+    text-align: center; /* Centre le texte sous l'image  */
+    margin: 10px 0 0; /* Ajoute un espacement entre l'image et le paragraphe */
+    font-size: 24px; /* Taille de police augmentée */
+    font-weight: bold; /* Rend le texte plus épais */
+    color: #333; /*  Définit une couleur personnalisée */
+}
+.bloc strong {
+    text-align: center; /* Centre le texte sous l'image*/
+    margin: 10px 0 0; /* Ajoute un espacement entre l'image et le paragraphe */
+    font-size: 24px; /* Taille de police augmentée */
+    font-weight: bold; /* Rend le texte plus épais */
+    color: #333; /*Définit une couleur personnalisée */
+}
+.echange2 img, .echange3 img{
+
+    max-width: 300px; /* Limite la taille de l'image si nécessaire */
+    height: auto; /* Maintient les proportions de l'image */
+}
+
+.echange, .echange22  {
+    display: flex; 
+    justify-content: center;
+    gap: 600px;
+    padding: 50px;
+    margin: 0 auto;
+}
+.generate p, .generate3 p, .generate3 h3 {
+    margin-top: 8px; 
+    font-size: 15px;
+    text-align: left;
+}
+.flowconversation {
+    display: flex; 
+    justify-content: center;
+    gap: 500px; 
+    padding: 50px; 
+    margin: 0 auto; 
+}
+.flowconversation img{
+
+    max-width: 300px; 
+    height: auto; 
+}
+
+.flow p {
+    margin-top: 8px; 
+    font-size: 15px; 
+    text-align: left; 
+}
+/*.bas img {
+    width: 100%; /* Étend l'image sur toute la largeur de la page */
+    height: 100px; /* Augmente la hauteur de l'image (ajustez selon vos besoins) */
+    /*display: block; /* Supprime les espaces blancs causés par l'affichage inline */
+    /*margin-bottom: -10px;
+    position: relative;} */
+
+
+.bas footer {
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+}
+
+.hugtext2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.principal {
+    padding: 0px;
+    margin-left: 0px;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.div footer .bas{
+    width: 100%;
+    background-color: hsl(192, 100%, 9%);
+    display: block;
+}
+
+.bas1 img {
+    display: block; /* Évite les espaces indésirables autour de l'image */
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 400px;
+   left: 0;
+  
+    
+}
